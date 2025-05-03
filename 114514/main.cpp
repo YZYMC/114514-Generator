@@ -1,4 +1,4 @@
-#include <iostream>;
+#include <iostream>
 using namespace std;
 const int N = 32;
 int n, a[N];
