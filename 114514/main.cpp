@@ -25,7 +25,7 @@ int main() {
     cout << "114514-Generator v1.1 YZYNetwork\nGitHub https://github.com/YZYMC/114514-Generator\nPlease enter a number" << endl;
     cin >> n;
     BinarySplit(n);
-    cout << endl << "Press any key to continue...";
+    cout << endl << "Press Ctrl+C to continue...";
     int a11;
     cin >> a11;
     return 0;
