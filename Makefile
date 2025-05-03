@@ -1,3 +1,3 @@
 .PHONY: comp
 comp:
-	g++ ./114514/main.cpp
+	g++ -o 114514 ./114514/main.cpp
