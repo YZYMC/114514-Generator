@@ -1,6 +1,5 @@
-#pragma execution_character_set("utf-8")
 #include <iostream>
-#include <conio.h>
+
 using namespace std;
 const int N = 32;
 int n, a[N];
@@ -27,6 +26,7 @@ int main() {
     cin >> n;
     BinarySplit(n);
     cout << endl << "Press any key to continue...";
-    _getch();
+    int a11;
+    cin >> a11;
     return 0;
 }
