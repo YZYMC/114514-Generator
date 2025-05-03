@@ -1,4 +1,6 @@
+#pragma execution_character_set("utf-8")
 #include <iostream>
+#include <conio.h>
 using namespace std;
 const int N = 32;
 int n, a[N];
@@ -21,9 +23,10 @@ void BinarySplit(int x) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    cout << "114514自动计算机 v1.0 YZYNetwork\n本程序开源，GitHub：https://github.com/YZYMC/114514-Generator\n请输入一个数字" << endl;
+    cout << "114514-Generator v1.1 YZYNetwork\nGitHub https://github.com/YZYMC/114514-Generator\nPlease enter a number" << endl;
     cin >> n;
     BinarySplit(n);
-    system("pause");
+    cout << endl << "Press any key to continue...";
+    _getch();
     return 0;
 }
