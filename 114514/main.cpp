@@ -21,7 +21,7 @@ void BinarySplit(int x) {
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0); cout.tie(0);
-    cout << "114514自动计算机 YZYNetwork\n请输入一个数字" << endl;
+    cout << "114514自动计算机 v1.0 YZYNetwork\n本程序开源，GitHub：https://github.com/YZYMC/114514-Generator\n请输入一个数字" << endl;
     cin >> n;
     BinarySplit(n);
     system("pause");
